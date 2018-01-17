@@ -24,15 +24,11 @@
     "prepublish": "npm run build",
     "release": "np"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/zinserjan/wdio-screenshot"
-  },
-  "bugs": {
-    "url": "https://github.com/zinserjan/wdio-screenshot/issues"
-  },
   "author": "Jan-André Zinser",
   "license": "MIT",
+  "publishConfig": {
+    "registry": "https://nexus3-preview.nionex.net/repository/npm-arvato/"
+  },
   "peerDependencies": {
     "webdriverio": "^4.0.7"
   },
